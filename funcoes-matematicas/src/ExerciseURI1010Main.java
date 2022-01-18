@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+//Cálculo simples
+
 public class ExerciseURI1010Main {
 
 	public static void main(String[] args) {

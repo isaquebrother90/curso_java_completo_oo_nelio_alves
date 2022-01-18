@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+//Área
+
 public class ExerciseURI1012Main {
 
 	public static void main(String[] args) {

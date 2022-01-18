@@ -1,6 +1,8 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+//Salário
+
 public class ExerciseURI1008Main {
 
 	public static void main(String[] args) {
