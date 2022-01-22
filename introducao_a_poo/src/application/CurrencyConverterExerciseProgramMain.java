@@ -14,10 +14,10 @@ public class CurrencyConverterExerciseProgramMain {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("What is the dollar price? ");
-		double dollarPrice = CurrencyConverter.value = sc.nextDouble();
+		double dollarPrice = sc.nextDouble();
 				
 		System.out.print("How many dollars will be bought? ");
-		double dollarToBought = CurrencyConverter.dollarExchange = sc.nextDouble();
+		double dollarToBought = sc.nextDouble();
 		
 		double amountToPaid = CurrencyConverter.dollarToRealConverter(dollarPrice, dollarToBought);
 		
