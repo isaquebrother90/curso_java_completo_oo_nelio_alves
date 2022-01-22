@@ -24,10 +24,15 @@ public class ProductProgramMain {
 		
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
-		
 		System.out.println();
 		
-		Product product = new Product(name, price);
+		product.setName("Computer");
+		System.out.println("Updated name: " + product.getName());
+		
+		product.setPrice(450.98);
+		System.out.println("Updated price: " + product.getPrice());
+		
+		//Product product = new Product(name, price);
 		
 		System.out.println("Product data: " + product);
 		System.out.println();
